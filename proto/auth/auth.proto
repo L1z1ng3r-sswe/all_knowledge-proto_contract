@@ -6,7 +6,7 @@ option go_package = "/auth";
 
 service Auth {
   rpc SignUp (SignUpRequest) returns (SignUpResponse);
-  rpc SingIn (SignInRequest) returns (SignInResponse);
+  rpc SignIn (SignInRequest) returns (SignInResponse);
 }
 
 message SignUpRequest {
